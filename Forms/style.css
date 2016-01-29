@@ -1,0 +1,22 @@
+body{
+	background: url(http://plantcurator.com/wp-content/uploads/2014/02/tumblr_muui0tANw31st5lhmo1_1280.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 12rem;
+}
+.color{
+	margin-top: 20px;
+	margin-right: 9px;
+	opacity: 0.8;
+}
+.divStyle{
+	width: 535px;
+	margin-left: 187px;
+	margin-top: 20px;
+	opacity: 0.8;
+}
+.container{
+	display: none;
+}
