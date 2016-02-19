@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+</head>
+<body ng-app="contactList" ng-controller="MainController" ng-cloak>
+	<form id="input" ng-submit="addRow()">
+		Full Name: <input class="inn" id="name" type="text" name="name" ng-model="name" />
+
+		Email Address: <input class="inn" id="email" type="email" name="emailAddress" ng-model="email" />
+
+		Mobile Number: <input class="inn" id="mobile" type="number" name="mobileNumber" ng-model="mobile" /> <br />
+
+		<input type="submit" id="buttonSub" value="Submit" />
+	</form> 
+
+
+	<table id="myTable">
+	
+	<thead>
+		<th>Full Name</th>
+		<th>Email Address</th>		
+		<th>Mobile Number</th>
+		<th>Action</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="(contactIndex, contact) in contacts" >
+			<td>{{contact.name}}</td>
+			<td ng-if="contact.edit"><input type="text" name="name" ng-model="contact.name"  /></td>
+			<td>{{contact.email}}</td>
+			<!-- <td><input type="email" name="email" ng-model="email" /></td> -->
+			<td>{{contact.mobile}}</td>
+			<!-- <td><input type="number" name="mobile" ng-model="mobile" /></td> -->
+			<td>
+				<input class='button' id='read' type='button' value='Read' ng-click="read(contact)">
+				<input class='button' id='save' type='button' value='Save' >	
+				<input class='button' id='update' type='button' value='Update' ng-click="update(contact)">
+				<input class='button' id='delete' type='button' value='Delete' ng-click="deleteRow(contactIndex)">
+			</td>
+		</tr>
+	</tbody>
+	</table>
+	<div id="reads" ng-if="display">
+		<p>Full Name: {{display.name}}</p>
+		<p>Email Address:{{display.email}}</p>
+		<p>Mobile Number:{{display.mobile}}</p>
+		<input id="close" type="button" name="Close" value="Close" ng-click="close(display)">
+
+		<p></p>
+	</div>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
