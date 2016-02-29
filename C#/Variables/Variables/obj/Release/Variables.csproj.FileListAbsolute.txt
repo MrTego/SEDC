@@ -1,5 +1,0 @@
-D:\SEDC\C#\Homeworks\Variables\Variables\bin\Release\Variables.exe.config
-D:\SEDC\C#\Homeworks\Variables\Variables\bin\Release\Variables.exe
-D:\SEDC\C#\Homeworks\Variables\Variables\bin\Release\Variables.pdb
-D:\SEDC\C#\Homeworks\Variables\Variables\obj\Release\Variables.exe
-D:\SEDC\C#\Homeworks\Variables\Variables\obj\Release\Variables.pdb

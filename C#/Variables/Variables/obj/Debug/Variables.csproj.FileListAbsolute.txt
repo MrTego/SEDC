@@ -1,6 +1,0 @@
-D:\SEDC\C#\Homeworks\Variables\Variables\bin\Debug\Variables.exe.config
-D:\SEDC\C#\Homeworks\Variables\Variables\obj\Debug\Variables.csprojResolveAssemblyReference.cache
-D:\SEDC\C#\Homeworks\Variables\Variables\bin\Debug\Variables.exe
-D:\SEDC\C#\Homeworks\Variables\Variables\bin\Debug\Variables.pdb
-D:\SEDC\C#\Homeworks\Variables\Variables\obj\Debug\Variables.exe
-D:\SEDC\C#\Homeworks\Variables\Variables\obj\Debug\Variables.pdb
